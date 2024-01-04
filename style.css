@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("img/math_background.jpeg"); /* Add the path to your image file */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%; /* Adjust the width as needed */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center text content inside the container */
+}
+
+h2 {
+  color: #333;
+}
+/* Add styles for labels and form elements */
+form label {
+  display: block;
+  text-align: left; /* Align the text to the left */
+  margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center form items horizontally */
+}
+
+form button {
+  margin-top: 10px; /* Add some spacing between the buttons */
+  width: 150px; /* Adjust the width of the buttons */
+  cursor: pointer;
+}
+
+/* Add outline style for the "Hitung Keliling" button */
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  text-align: left; /* Align the text to the left */
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+#kelilingMode {
+  display: none;
+}
